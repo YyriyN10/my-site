@@ -26,7 +26,7 @@ define( 'DB_NAME', 'yuna' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'password' );
+define( 'DB_PASSWORD', 'myDBpass100!' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );

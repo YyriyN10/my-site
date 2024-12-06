@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1630f152-8072-44dc-883c-cdd9edafb4cd" name="Default Changelist" comment="" />
+    <list default="true" id="1630f152-8072-44dc-883c-cdd9edafb4cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodtemplate/assets/css/_blog-single.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodtemplate/assets/css/_blog-single.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodtemplate/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodtemplate/assets/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodtemplate/inc/custom-post-types.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodtemplate/inc/custom-post-types.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodtemplate/template-blog-single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodtemplate/template-blog-single.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +43,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2iVgkw1HShXhJT3beXQNXg9kFiG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,10 +56,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../greensystem.loc/wp-content/themes/green-system/assets/gulpfile.js" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -106,6 +138,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="855" y="447" width="327" height="143" key="#WordPress" timestamp="1725866071747">
       <screen x="0" y="0" width="2048" height="1040" />
@@ -115,9 +158,10 @@
       <screen x="0" y="0" width="2048" height="1040" />
     </state>
     <state x="769" y="359" width="500" height="319" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2048.1040@0.0.2048.1040" timestamp="1728281327987" />
-    <state x="807" y="278" width="438" height="482" key="FileChooserDialogImpl" timestamp="1732290019644">
-      <screen x="0" y="0" width="2048" height="1040" />
+    <state x="757" y="275" width="503" height="476" key="FileChooserDialogImpl" timestamp="1733492058896">
+      <screen x="0" y="0" width="1920" height="1030" />
     </state>
+    <state x="757" y="275" width="503" height="476" key="FileChooserDialogImpl/0.0.1920.1030@0.0.1920.1030" timestamp="1733492058896" />
     <state x="807" y="278" width="438" height="482" key="FileChooserDialogImpl/0.0.2048.1040@0.0.2048.1040" timestamp="1732290019644" />
     <state width="2006" height="268" key="GridCell.Tab.0.bottom" timestamp="1727103673459">
       <screen x="0" y="0" width="2048" height="1040" />
@@ -143,6 +187,10 @@
       <screen x="0" y="0" width="2048" height="1040" />
     </state>
     <state x="842" y="446" width="342" height="145" key="NewPhpFileDialog/0.0.2048.1040@0.0.2048.1040" timestamp="1728555706931" />
+    <state x="576" y="110" width="1067" height="728" key="SettingsEditor" timestamp="1733483289604">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="576" y="110" width="1067" height="728" key="SettingsEditor/0.0.1920.1030@0.0.1920.1030" timestamp="1733483289604" />
     <state x="687" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1728027636468">
       <screen x="0" y="0" width="2048" height="1040" />
     </state>

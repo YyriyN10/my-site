@@ -126,7 +126,7 @@
 
 		$args = array(
 			'labels'             => $labels,
-			'taxonomies'         => [],
+			'taxonomies'         => ['blog_tax'],
 			'description'        => __( 'Description.', 'blog' ),
 			'public'             => true,
 			'publicly_queryable' => true,
@@ -148,6 +148,47 @@
 	}
 
 	add_action( 'init', 'blog_post_type' );
+
+	add_action( 'init', 'blog_taxonomy' );
+	function blog_taxonomy(){
+
+		register_taxonomy('blog_tax', 'blog', array(
+			'label'                 => 'blog_tax', // определяется параметром $labels->name
+			'labels'                => array(
+				'name'              => 'Категорії',
+				'singular_name'     => 'Категорія',
+				'search_items'      => 'Пошук категорії',
+				'all_items'         => 'Всі категорії',
+				'view_item '        => 'View Genre',
+				'parent_item'       => 'Parent Genre',
+				'parent_item_colon' => 'Parent Genre:',
+				'edit_item'         => 'Редагувати категорію',
+				'update_item'       => 'Оновити категорію',
+				'add_new_item'      => 'Додати категорію',
+				'new_item_name'     => 'New Genre Name',
+				'menu_name'         => 'Категорії',
+			),
+			'description'           => 'blog_tax', // описание таксономии
+			'public'                => true,
+			'publicly_queryable'    => true, // равен аргументу public
+			'show_in_nav_menus'     => true, // равен аргументу public
+			'show_ui'               => true, // равен аргументу public
+			'show_in_menu'          => true, // равен аргументу show_ui
+			'show_tagcloud'         => true, // равен аргументу show_ui
+			'show_in_rest'          => true, // добавить в REST API
+			'rest_base'             => true, // $taxonomy
+			'hierarchical'          => true,
+			'supports'           => array( 'title', 'thumbnail', 'revisions' ),
+
+			/*'update_count_callback' => '_update_post_term_count',*/
+			'rewrite'               => array('slug' => 'blog'),
+			'capabilities'          => array(),
+			'meta_box_cb'           => null, // callback функция. Отвечает за html код метабокса (с версии 3.8): post_categories_meta_box или post_tags_meta_box. Если указать false, то метабокс будет отключен вообще
+			'show_admin_column'     => true, // Позволить или нет авто-создание колонки таксономии в таблице ассоциированного типа записи. (с версии 3.5)
+			/*'_builtin'              => false,*/
+			'show_in_quick_edit'    => true, // по умолчанию значение show_ui
+		) );
+	}
 
 	/**
 	 * Register a reviews post type.
