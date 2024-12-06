@@ -1,0 +1,316 @@
+.product-content{
+  background-color: $color-white;
+  padding-top: clamp(80px, 9.16vw, 176px);
+  padding-bottom: clamp(100px, 11.56vw, 222px);
+
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+
+    .text{
+      h3{
+        font-family: $f-heading;
+        font-size: clamp(24px, 2.5vw, 48px);
+        line-height: 1.33;
+        margin-bottom: 12px;
+        color: $color-black;
+      }
+
+      p{
+        margin-bottom: 38px;
+
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+
+      &.firs-part{
+        width: 100%;
+        margin-bottom: clamp(40px, 8.12vw, 156px);
+        padding-left: 58%;
+        padding-right: 10%;
+
+        @media(max-width: 992px){
+          padding-left: 50%;
+          padding-right: 0;
+        }
+
+        @media(max-width: 575px){
+          padding-left: 0;
+        }
+      }
+
+      &.second-part{
+        width: 34%;
+        padding-left: 46px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        padding-bottom: clamp(30px, 7.19vw, 138px);
+
+        @media(max-width: 992px){
+          width: 45%;
+          padding-left: 30px;
+        }
+
+        @media(max-width: 575px){
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      &.third-part{
+        width: 100%;
+        margin-top: clamp(70px, 10.3vw, 198px);
+        padding-left: 35%;
+        padding-right: 35%;
+
+        @media(max-width: 992px){
+          padding-left: 15%;
+          padding-right: 15%;
+        }
+
+        @media(max-width: 575px){
+          padding-left: 0;
+          padding-right: 0;
+          margin-top: 15px;
+        }
+      }
+    }
+
+    .double-pic-wrapper{
+      width: 66%;
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+
+      @media(max-width: 992px){
+        width: 55%;
+      }
+
+      @media(max-width: 575px){
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+      }
+
+      .pic-big{
+        position: relative;
+        z-index: 1;
+        width: clamp(320px, 42.8vw, 822px);
+
+        @media(max-width: 992px){
+          width: clamp(280px, 40.8vw, 822px);
+        }
+
+        @media(max-width: 575px){
+          width: calc(50% - 15px);
+        }
+
+        @media(max-width: 440px){
+          width: 100%;
+          margin-bottom: 30px;
+        }
+      }
+
+      .pic-small{
+        position: absolute;
+        z-index: 2;
+        left: 15%;
+        width: clamp(200px, 25.3vw, 486px);
+        top: -24.7vw;
+
+        @media(max-width: 992px){
+          left: 0;
+          width: clamp(200px, 25.3vw, 400px);
+        }
+
+        @media(max-width: 575px){
+          position: relative;
+          top: 0;
+          width: calc(50% - 15px);
+        }
+
+        @media(max-width: 440px){
+          width: 100%;
+        }
+      }
+    }
+
+    .pic-wrapper{
+      margin: clamp(60px, 6.34vw, 122px) auto 0;
+      width: 70.8vw;
+
+      @media(max-width: 575px){
+        width: 100%;
+      }
+    }
+  }
+}
+
+/*--- posts-navigation ---*/
+
+.posts-navigation{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: $color-green-light;
+
+  @media(max-width: 992px){
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  @media(max-width: 767px){
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  @media(max-width: 575px){
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  @media(max-width: 440px){
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .bg-pic{
+    width: 30px;
+    height: auto;
+
+    @media(max-width: 575px){
+      display: none;
+    }
+  }
+
+  .post-navigation{
+    width: calc(50% - 15px);
+    text-align: center;
+
+    a{
+      color: $color-black !important;
+
+      .arrow{
+        display: flex;
+        align-items: center;
+        margin-bottom: 22px;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: $color-black !important;
+        justify-content: center;
+
+        @media(max-width: 992px){
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+
+        @media(max-width: 767px){
+          font-size: 16px;
+          margin-bottom: 18px;
+        }
+
+        @media(max-width: 575px){
+          font-size: 14px;
+          margin-bottom: 16px;
+        }
+
+        @media(max-width: 440px){
+          font-size: 12px;
+        }
+
+        svg{
+          width: 48px;
+          height: auto;
+
+          @media(max-width: 992px){
+            width: 40px;
+          }
+
+          @media(max-width: 767px){
+            width: 32px;
+          }
+
+          @media(max-width: 575px){
+            width: 24px;
+          }
+
+          @media(max-width: 440px){
+            width: 16px;
+          }
+        }
+      }
+
+      .post-name{
+        @media(max-width: 440px){
+          font-size: 16px;
+        }
+      }
+    }
+
+    &.next-post{
+      padding-left: 30px;
+
+      @media(max-width: 575px){
+        padding-left: 0;
+        text-align: left;
+      }
+
+      a{
+        .arrow{
+          @media(max-width: 575px){
+            justify-content: flex-start;
+          }
+
+          svg{
+            margin-left: 25px;
+
+            @media(max-width: 575px){
+              margin-left: 15px;
+            }
+
+            @media(max-width: 440px){
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+    }
+
+    &.prev-post{
+      padding-right: 30px;
+
+      @media(max-width: 575px){
+        padding-right: 0;
+        text-align: right;
+      }
+
+      a{
+        .arrow{
+          @media(max-width: 575px){
+            justify-content: flex-end;
+          }
+
+          svg{
+            margin-right: 25px;
+
+            @media(max-width: 575px){
+              margin-right: 15px;
+            }
+
+            @media(max-width: 440px){
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

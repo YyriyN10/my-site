@@ -1,0 +1,22 @@
+
+/*--- FONTS ---*/
+
+$f-main: "Lato-light";
+$f-reg: "Lato-regular";
+$f-bold: "Lato-Bold";
+$f-Ex-bold: "Lato-Ex-bold";
+$f-DM-reg: "DM-serif-display-regular";
+
+/*--- COLORS ---*/
+$color-red: #fe492e;
+$color-black: #1e1c1d;
+$color-white: #ffffff;
+$color-green: #078e15;
+$color-yellow: #ff9b19;
+$color-gray: #f4f4f4f4;
+
+@media (min-width: 1200px){
+  .container {
+    max-width: 1270px;
+  }
+}

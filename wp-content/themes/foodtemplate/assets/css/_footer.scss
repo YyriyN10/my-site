@@ -1,0 +1,175 @@
+/*--- site-footer ---*/
+
+.site-footer{
+  background-color: $color-green-dark;
+  padding-top: clamp(40px, 6.87vw, 132px);
+  color: $color-white;
+
+  .content{
+    padding-bottom: clamp(40px, 6.87vw, 132px);
+    display: flex;
+    justify-content: space-between;
+
+    @media(max-width: 992px){
+      flex-wrap: wrap;
+    }
+  }
+
+  .mini-title{
+    margin-bottom: 55px;
+
+    @media(max-width: 575px){
+      margin-bottom: 20px;
+    }
+  }
+
+  .company-name{
+    width: max(25%, 150px);
+    margin-bottom: 0px;
+
+    @media(max-width: 992px){
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__contacts{
+    width: clamp(150px, 25%, 225px);
+    font-size: 18px;
+
+    @media(max-width: 992px){
+      width: clamp(150px, 35%, 225px);
+    }
+
+    @media(max-width: 575px){
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    a,
+    p{
+      display: block;
+      color: $color-white !important;
+      font-size: 18px;
+
+      &.address{
+        margin-top: 28px;
+        margin-bottom: 0;
+
+        @media(max-width: 575px){
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+
+  &__form{
+    width: clamp(260px, 41.4vw, 795px);
+
+    @media(max-width: 992px){
+      width: clamp(260px, calc(65% - 30px), 795px);
+    }
+
+    @media(max-width: 575px){
+      width: 100%;
+    }
+
+    form{
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      margin-bottom: 15px;
+      justify-content: space-between;
+
+      @media(max-width: 767px){
+        flex-wrap: wrap;
+      }
+
+      .form-group{
+        margin-bottom: 0;
+        flex: 2 150px;
+
+        @media(max-width: 767px){
+          width: 100%;
+        }
+
+        .form-control{
+          border-color: $color-white;
+
+          ::-webkit-input-placeholder {
+            color: $color-white;
+          }
+          :-moz-placeholder {
+            color: $color-white;
+          }
+          ::-moz-placeholder {
+            color: $color-white;
+          }
+          :-ms-input-placeholder {
+            color: $color-white;
+          }
+        }
+      }
+
+      .button{
+        @media(max-width: 767px){
+          width: 100%;
+        }
+      }
+    }
+
+    .small-text{
+      margin-bottom: 0;
+    }
+
+  }
+
+  .copy-wrapper{
+    position: relative;
+    padding-top: clamp(15px, 3.23vw, 62px);
+    padding-bottom: clamp(15px, 4.22vw, 81px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media(max-width: 767px){
+      flex-wrap: wrap;
+    }
+
+    &:before{
+      content: '';
+      position: absolute;
+      width: 120vw;
+      top: 0;
+      left: -10vw;
+      height: 2px;
+      border-top: 2px dashed $color-white;
+    }
+
+    .copy{
+      margin-bottom: 0;
+      margin-right: 30px;
+
+      @media(max-width: 767px){
+        order: 1;
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    .soc-wrapper{
+      gap: 28px;
+
+      @media(max-width: 767px){
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 30px;
+      }
+
+      li{
+        a{
+          width: 28px;
+        }
+      }
+    }
+  }
+}

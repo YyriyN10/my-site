@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1630f152-8072-44dc-883c-cdd9edafb4cd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2iVgkw1HShXhJT3beXQNXg9kFiG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/foodtemplate" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/tourplus/assets/js" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1630f152-8072-44dc-883c-cdd9edafb4cd" name="Default Changelist" comment="" />
+      <created>1719581304420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719581304420</updated>
+      <workItem from="1719581305562" duration="160000" />
+      <workItem from="1719581485652" duration="1877000" />
+      <workItem from="1719586665891" duration="957000" />
+      <workItem from="1719838626439" duration="6312000" />
+      <workItem from="1719899474585" duration="9689000" />
+      <workItem from="1722429642013" duration="6115000" />
+      <workItem from="1722492354001" duration="622000" />
+      <workItem from="1722510841628" duration="1836000" />
+      <workItem from="1725866016466" duration="2360000" />
+      <workItem from="1725874803692" duration="3598000" />
+      <workItem from="1725891003673" duration="265000" />
+      <workItem from="1725960839783" duration="3522000" />
+      <workItem from="1725965229700" duration="108000" />
+      <workItem from="1725965361461" duration="616000" />
+      <workItem from="1725976158045" duration="5276000" />
+      <workItem from="1726034934347" duration="23301000" />
+      <workItem from="1726120427844" duration="6918000" />
+      <workItem from="1726153004363" duration="189000" />
+      <workItem from="1726207559141" duration="5990000" />
+      <workItem from="1726228513031" duration="7534000" />
+      <workItem from="1726466785449" duration="43000" />
+      <workItem from="1726466839965" duration="18385000" />
+      <workItem from="1726553173282" duration="12787000" />
+      <workItem from="1726578457299" duration="62000" />
+      <workItem from="1726578529805" duration="6120000" />
+      <workItem from="1726639476971" duration="5435000" />
+      <workItem from="1726660542907" duration="4826000" />
+      <workItem from="1726726032957" duration="26944000" />
+      <workItem from="1726811772070" duration="22375000" />
+      <workItem from="1727071680483" duration="25000" />
+      <workItem from="1727071715423" duration="20520000" />
+      <workItem from="1727158708735" duration="4849000" />
+      <workItem from="1727168230439" duration="12040000" />
+      <workItem from="1727267262636" duration="6823000" />
+      <workItem from="1727330802492" duration="1199000" />
+      <workItem from="1727417215188" duration="1199000" />
+      <workItem from="1727423399474" duration="1098000" />
+      <workItem from="1727675691871" duration="43000" />
+      <workItem from="1727675746796" duration="1215000" />
+      <workItem from="1727787932866" duration="6232000" />
+      <workItem from="1727849836204" duration="22143000" />
+      <workItem from="1727935686436" duration="627000" />
+      <workItem from="1727958279186" duration="8538000" />
+      <workItem from="1728021982355" duration="27387000" />
+      <workItem from="1728281280380" duration="50000" />
+      <workItem from="1728281342574" duration="6876000" />
+      <workItem from="1728306623587" duration="4477000" />
+      <workItem from="1728367715581" duration="7954000" />
+      <workItem from="1728454980334" duration="22236000" />
+      <workItem from="1728540086712" duration="12309000" />
+      <workItem from="1732283779969" duration="44000" />
+      <workItem from="1732285848748" duration="1444000" />
+      <workItem from="1733473546334" duration="4717000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="855" y="447" width="327" height="143" key="#WordPress" timestamp="1725866071747">
+      <screen x="0" y="0" width="2048" height="1040" />
+    </state>
+    <state x="855" y="447" width="327" height="143" key="#WordPress/0.0.2048.1040@0.0.2048.1040" timestamp="1725866071747" />
+    <state x="769" y="359" width="500" height="319" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1728281327987">
+      <screen x="0" y="0" width="2048" height="1040" />
+    </state>
+    <state x="769" y="359" width="500" height="319" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2048.1040@0.0.2048.1040" timestamp="1728281327987" />
+    <state x="807" y="278" width="438" height="482" key="FileChooserDialogImpl" timestamp="1732290019644">
+      <screen x="0" y="0" width="2048" height="1040" />
+    </state>
+    <state x="807" y="278" width="438" height="482" key="FileChooserDialogImpl/0.0.2048.1040@0.0.2048.1040" timestamp="1732290019644" />
+    <state width="2006" height="268" key="GridCell.Tab.0.bottom" timestamp="1727103673459">
+      <screen x="0" y="0" width="2048" height="1040" />
+    </state>
+    <state width="2006" height="268" key="GridCell.Tab.0.bottom/0.0.2048.1040@0.0.2048.1040" timestamp="1727103673459" />
+    <state width="2006" height="268" key="GridCell.Tab.0.center" timestamp="1727103673458">
+      <screen x="0" y="0" width="2048" height="1040" />
+    </state>
+    <state width="2006" height="268" key="GridCell.Tab.0.center/0.0.2048.1040@0.0.2048.1040" timestamp="1727103673458" />
+    <state width="2006" height="268" key="GridCell.Tab.0.left" timestamp="1727103673458">
+      <screen x="0" y="0" width="2048" height="1040" />
+    </state>
+    <state width="2006" height="268" key="GridCell.Tab.0.left/0.0.2048.1040@0.0.2048.1040" timestamp="1727103673458" />
+    <state width="2006" height="268" key="GridCell.Tab.0.right" timestamp="1727103673459">
+      <screen x="0" y="0" width="2048" height="1040" />
+    </state>
+    <state width="2006" height="268" key="GridCell.Tab.0.right/0.0.2048.1040@0.0.2048.1040" timestamp="1727103673459" />
+    <state x="713" y="249" width="611" height="540" key="NewPhpClassDialog" timestamp="1727184926111">
+      <screen x="0" y="0" width="2048" height="1040" />
+    </state>
+    <state x="713" y="249" width="611" height="540" key="NewPhpClassDialog/0.0.2048.1040@0.0.2048.1040" timestamp="1727184926111" />
+    <state x="842" y="446" width="342" height="145" key="NewPhpFileDialog" timestamp="1728555706931">
+      <screen x="0" y="0" width="2048" height="1040" />
+    </state>
+    <state x="842" y="446" width="342" height="145" key="NewPhpFileDialog/0.0.2048.1040@0.0.2048.1040" timestamp="1728555706931" />
+    <state x="687" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1728027636468">
+      <screen x="0" y="0" width="2048" height="1040" />
+    </state>
+    <state x="687" y="229" width="672" height="678" key="search.everywhere.popup/0.0.2048.1040@0.0.2048.1040" timestamp="1728027636468" />
+    <state x="749" y="435" width="540" height="168" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1725866616691">
+      <screen x="0" y="0" width="2048" height="1040" />
+    </state>
+    <state x="749" y="435" width="540" height="168" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.2048.1040@0.0.2048.1040" timestamp="1725866616691" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>$PROJECT_DIR$</wordpressPath>
+  </component>
+</project>

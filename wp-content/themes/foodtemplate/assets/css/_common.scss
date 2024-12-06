@@ -1,0 +1,266 @@
+
+/*--- main-screen ---*/
+
+.main-screen{
+  position: relative;
+  color: $color-white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &:before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: rgba(0,0,0,0.5);
+  }
+
+  .container-fluid{
+    position: relative;
+    z-index: 2;
+  }
+
+  &.main-screen--small{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  &.main-screen--big{
+    display: flex;
+    align-items: center;
+    min-height: 110vh;
+  }
+}
+
+/*--- Site header ---*/
+
+.site-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  transition: all 0.2s;
+
+  &.fixed-header{
+    transform: translateY(-110%);
+    background-color: rgba(35, 49, 0, 0.7);
+    backdrop-filter: blur(10px);
+  }
+
+  &.fixed-header-visible{
+    transform: translateY(0);
+  }
+}
+
+/*--- out-menu-position ---*/
+
+.out-menu-position{
+  color: $color-black !important;
+
+  .price{
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding-bottom: 12px;
+    border-bottom: 4px dashed $color-black;
+    margin-bottom: 24px;
+  }
+
+  .name{
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .description{
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+/*--- blog-item ---*/
+
+.blog-item{
+  &__preview-wrapper{
+    width: 100%;
+    position: relative;
+    margin-bottom: clamp(24px, 3.54vw, 68px);
+    display: block;
+
+    img{
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  &__category{
+    position: absolute;
+    z-index: 2;
+    top: 12px;
+    right: 12px;
+    padding: 7px 53px;
+    background-color: $color-green;
+    color: $color-white !important;
+  }
+
+  &__info-wrapper{
+    padding-left: clamp(18px, 3.75vw, 72px);
+    padding-right: clamp(18px, 3.75vw, 72px);
+    padding-bottom: clamp(18px, 4.27vw, 82px);
+    display: block;
+  }
+
+  &__author-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: clamp(18px, 2.5vw, 48px);
+    font-size: clamp(14px, 0.95vw, 18px);
+    color: $color-green !important;
+
+    span{
+      position: relative;
+      margin-right: 32px;
+
+      &:before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: -16px;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: $color-green;
+        transform: translateY(-50%);
+      }
+
+      &:first-child,
+      &:last-child{
+        margin-right: 0;
+
+        &:before{
+          display: none;
+        }
+      }
+    }
+  }
+
+  &__avatar{
+    width: clamp(40px, 3.12vw, 60px);
+    height: clamp(40px, 3.12vw, 60px);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 14px !important;
+  }
+
+  &__author-name{
+    margin-right: 32px;
+    position: relative;
+  }
+
+  &__title{
+    padding-bottom: 18px;
+    width: 100%;
+    color: $color-black !important;
+    display: block;
+    border-bottom: 4px dashed $color-black;
+    margin-bottom: 18px;
+  }
+
+  &__description{
+    font-family: $f-bold;
+    font-size: clamp(18px, 1.14vw, 22px);
+    margin-bottom: clamp(18px, 2.5vw, 48px);
+    display: block;
+    color: $color-dark !important;
+  }
+
+  &__more{
+    display: flex;
+    align-items: center;
+    color: $color-black;
+
+    svg{
+      width: clamp(24px, 2.5vw, 48px);
+      height: auto;
+      margin-left: 10px;
+    }
+  }
+
+}
+
+/*--- reservation ---*/
+
+.reservation{
+  padding-top: clamp(100px, 12vw, 230px);
+  padding-bottom: clamp(100px, 13vw, 250px);
+  background-color: $color-green-light;
+
+  .title-wrapper{
+    position: relative;
+    text-align: center;
+    margin-bottom: clamp(60px, 6.05vw, 116px);
+
+    .bg-pic{
+      position: absolute;
+      width: max(150px, 26.6vw);
+      height: auto;
+      top: max(-80px, -8.33vw);
+      left: -13vw;
+      z-index: 1;
+
+      @media(max-width: 992px){
+        left: -15px;
+      }
+    }
+
+    .heading{
+      position: relative;
+      z-index: 2;
+      color: $color-black;
+      margin-bottom: 18px;
+    }
+
+    .text{
+      position: relative;
+      z-index: 2;
+      margin-bottom: 0;
+
+      p{
+        margin-bottom: 15px;
+
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  form{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: clamp(20px, 1.56vw, 30px);
+    justify-content: center;
+
+    .form-group{
+      width: 100%;
+      margin-bottom: 0;
+
+      &.short{
+        width: calc(50% - clamp(10px, 0.78vw, 15px));
+
+        @media(max-width: 440px){
+          width: 100%;
+        }
+
+      }
+    }
+  }
+
+
+
+}

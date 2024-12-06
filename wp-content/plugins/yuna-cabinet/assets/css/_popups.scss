@@ -1,0 +1,46 @@
+
+/*--- Login modal ---*/
+
+.modal-login{
+
+  .modal-header{
+
+    .modal-title{
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+
+  }
+
+  form{
+    width: 260px;
+    margin: 0 auto;
+
+    label{
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    input{
+      width: 100%;
+    }
+
+    .login-remember{
+      label{
+        display: inline-block;
+      }
+
+      input{
+        width: auto;
+      }
+    }
+  }
+
+  .button{
+    background: #28a745;
+    padding: 16px 32px;
+    color: #ffffff;
+  }
+
+}

@@ -1,0 +1,127 @@
+
+.contact-main-screen{
+  .heading{
+    margin-bottom: 50px;
+  }
+
+  .working-time{
+    margin-top: 93px;
+
+    @media(max-width: 575px){
+      margin-top: 60px;
+    }
+
+    .open-wrapper{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 38px;
+
+      @media(max-width: 575px){
+        margin-bottom: 24px;
+      }
+
+      p{
+        margin-bottom: 0;
+      }
+    }
+
+    .time-wrapper{
+      padding-top: 38px;
+      border-top: 2px dashed $color-white;
+      justify-content: space-between;
+      display: flex;
+
+      @media(max-width: 575px){
+        padding-top: 24px;
+      }
+
+      @media(max-width: 440px){
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+/*--- contact-content ---*/
+
+.contact-content{
+  background-color: $color-white;
+  padding-top: clamp(100px, 14.16vw, 272px);
+  padding-bottom: clamp(80px, 9.63vw, 185px);
+  position: relative;
+
+  .bg-pic{
+    position: absolute;
+    z-index: 1;
+    width: clamp(200px, 23.23vw, 446px);
+    left: 50%;
+    top: clamp(40px, 7.92vw, 152px);
+    height: auto;
+    transform: translateX(-50%);
+  }
+
+  .container-fluid{
+    position: relative;
+    z-index: 2;
+  }
+
+  .row{
+    margin-bottom: clamp(70px, 7.55vw, 145px);
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+  .content-wrapper{
+    display: flex;
+    align-items: flex-end;
+
+    @media(max-width: 767px){
+      order: 2;
+    }
+  }
+
+  .pic-wrapper{
+    @media(max-width: 767px){
+      order: 1;
+      margin-bottom: 30px;
+    }
+  }
+
+  .text-contact{
+    width: clamp(70%, 26.4vw, 507px);
+    margin: 0 auto 80px;
+    font-family: $f-heading;
+    font-size: clamp(20px, 1.66vw, 32px);
+    line-height: 1.5;
+
+    @media(max-width: 992px){
+      margin-bottom: 0;
+      width: 100%;
+    }
+
+    a{
+      color: $color-green !important;
+    }
+  }
+
+  .text-location{
+    width: clamp(90%, 38.95vw, 748px);
+    margin: 0 auto clamp(50px, 19.92vw, 325px);
+
+    @media(max-width: 767px){
+      width: 100%;
+      margin-bottom: 0;
+    }
+
+    p{
+      margin-bottom: 35px;
+    }
+
+    .border-btn{
+      color: $color-black !important;
+      border-color: $color-black;
+    }
+  }
+}

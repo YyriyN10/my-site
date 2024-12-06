@@ -1,0 +1,138 @@
+.menu-main-screen {
+  color: $color-white;
+
+  .heading{
+    text-transform: capitalize;
+    margin-bottom: 50px;
+  }
+
+  .text{
+    p{
+      margin-bottom: 15px;
+
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+/*--- menu-page-category ---*/
+
+.menu-page-category{
+  background-color: $color-white;
+  padding-bottom: clamp(70px, 7.3vw, 140px);
+  position: relative;
+
+  .container-fluid{
+    position: relative;
+    z-index: 2;
+  }
+
+  .block-title{
+    margin-bottom: 0;
+    color: $color-black;
+  }
+
+  .text{
+    margin-top: 18px;
+
+    p{
+      margin-bottom: 10px;
+
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .content{
+    margin-top: 80px;
+
+    @media(max-width: 767px){
+      margin-top: 60px;
+    }
+  }
+
+  .pic-wrapper{
+
+    @media(max-width: 767px){
+      display: none;
+    }
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .product-list{
+    overflow: hidden;
+    position: relative;
+
+    @media(max-width: 767px){
+      height: 65vh;
+    }
+
+    .list-wrapper{
+      position: absolute;
+      top: 0;
+      left: 15px;
+      right: 15px;
+      bottom: 0;
+      overflow-y: scroll;
+      padding-right: 20px;
+
+
+      &::-webkit-scrollbar{
+        width: 3px;
+        background-color: rgba(26, 24, 47, 0.1);
+        border-radius: 3px;
+        height: 200px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: $color-green-soft;
+        border-radius: 3px;
+      }
+    }
+  }
+
+  &.starter-menu{
+    padding-top: 122px;
+
+    @media(max-width: 767px){
+      padding-top: 80px;
+    }
+
+    .bg-pic{
+      position: absolute;
+      width: clamp(150px, 26.87vw, 516px);
+      height: auto;
+      top: 0;
+      right: 0;
+      z-index: 1;
+    }
+  }
+
+  &.drinks-menu{
+    padding-top: 187px;
+
+    .bg-pic{
+      position: absolute;
+      width: clamp(120px, 18.12vw, 348px);
+      height: auto;
+      top: 2vw;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+    }
+
+    .content{
+      margin-top: 160px;
+    }
+  }
+}
+
+

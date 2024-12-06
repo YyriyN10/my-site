@@ -1,0 +1,137 @@
+ /*--- user-info ---**/
+
+ .user-info{
+
+   &__avatar{
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     border: 1px solid grey;
+     position: relative;
+     overflow: hidden;
+     cursor: pointer;
+
+     img,
+     svg{
+       width: 100%;
+       height: 100%;
+       max-width: 200%;
+       max-height: 200%;
+       position: relative;
+       z-index: 1;
+       object-fit: cover;
+     }
+
+     form{
+       position: absolute;
+       z-index: 2;
+       inset: 0;
+       background-color: rgba(0,0,0,0.4);
+       font-size: 12px;
+       color: #ffffff !important;
+       text-align: center;
+       line-height: 100px;
+       opacity: 0;
+       transition: 0.2s;
+       margin: 0;
+       cursor: pointer;
+     }
+
+     label{
+       display: block;
+       color: #ffffff;
+       cursor: pointer;
+
+       input{
+         display: none;
+         z-index: -1;
+         opacity: 0;
+       }
+     }
+
+     button{
+       opacity: 0;
+       position: absolute;
+       z-index: -1;
+       display: none;
+     }
+
+     &:hover{
+       form{
+         opacity: 1;
+       }
+     }
+   }
+
+   &__full-name{
+     position: relative;
+     cursor: pointer;
+
+     .name{
+       position: relative;
+       z-index: 1;
+       transition: all 0.2s;
+       margin: 0;
+       cursor: pointer;
+     }
+
+     .edit-btn{
+       position: absolute;
+       width: 32px;
+       bottom: -32px;
+       right: -32px;
+       z-index: 3;
+       opacity: 0;
+       transition: all 0.2s;
+
+       svg{
+         width: 100%;
+         height: auto;
+       }
+     }
+
+     form{
+       position: absolute;
+       z-index: 2;
+       top: 0;
+       left: 0;
+       opacity: 0;
+       transition: all 0.2s;
+     }
+
+     &:hover{
+       .edit-btn{
+         opacity: 1;
+       }
+     }
+
+     &.eddited{
+       .edit-btn{
+         opacity: 0 !important;
+       }
+
+       form{
+         opacity: 1;
+       }
+     }
+
+   }
+ }
+
+ /*--- available-courses ---*/
+
+ .available-courses{
+   &__item{
+     display: block;
+
+     .inner{
+       display: block;
+       width: 100%;
+       height: 100%;
+       padding: 15px;
+       border-right: 5px;
+       background-color: lightgrey;
+     }
+
+   }
+ }
